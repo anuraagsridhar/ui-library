@@ -1,0 +1,22 @@
+@value gridBaseline from 'assets/css/common.css';
+@value textNormal from 'assets/css/fonts.css';
+
+.textInput {
+  display: flex;
+  padding: gridBaseline;
+  flex: 1;
+}
+
+.input {
+  composes: textNormal;
+  flex: 1;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #C2C2C2;
+  border-radius: calc(0.5 * gridBaseline);
+  -webkit-border-radius: calc(0.5 * gridBaseline);
+  -moz-border-radius: calc(0.5 * gridBaseline);
+  padding: gridBaseline;
+  outline: none;
+}

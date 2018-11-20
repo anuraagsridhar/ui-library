@@ -1,0 +1,18 @@
+
+
+.fontSmoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+.textNormal {
+  composes: fontSmoothing;
+  font-size: 0.8rem;
+  line-height: 0.9;
+}
+
+.textLarge {
+  composes: fontSmoothing;
+  font-size: 1.6rem;
+}

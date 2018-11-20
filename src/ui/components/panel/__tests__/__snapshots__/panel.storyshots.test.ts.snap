@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ui.components.panel Static Examples 1`] = `
+<section>
+  <fieldset>
+    <legend>
+      Primary
+    </legend>
+    <div
+      className=""
+    >
+      <div>
+        <div>
+          Search Parameters
+        </div>
+      </div>
+      <div>
+        Testing panel content. Everything here should be rendered in a panel.
+      </div>
+    </div>
+    <input
+      type="multirange"
+    />
+  </fieldset>
+</section>
+`;

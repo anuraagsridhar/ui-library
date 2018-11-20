@@ -1,0 +1,15 @@
+.requireAuthentication {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.loginFormContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}

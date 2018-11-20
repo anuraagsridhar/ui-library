@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ui.components.button Static Examples 1`] = `
+<section>
+  <fieldset>
+    <legend>
+      Primary
+    </legend>
+    <div
+      className=""
+      onClick={[Function]}
+    >
+      <div>
+        Submit
+      </div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>
+      Secondary
+    </legend>
+    <div
+      className="undefined"
+      onClick={[Function]}
+    >
+      <div>
+        Cancel
+      </div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>
+      Loading
+    </legend>
+    <div
+      className=""
+      onClick={[Function]}
+    >
+      <div>
+        <i
+          className="fas fa-cog fa-spin"
+        />
+      </div>
+    </div>
+  </fieldset>
+</section>
+`;

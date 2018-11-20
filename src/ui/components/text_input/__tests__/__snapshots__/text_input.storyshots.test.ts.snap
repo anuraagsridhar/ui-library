@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ui.components.text_input Static Examples 1`] = `
+<section>
+  <fieldset>
+    <legend>
+      Plain Text
+    </legend>
+    <div>
+      <input
+        onChange={[Function]}
+        placeholder="Enter username"
+        type="text"
+        value="testing"
+      />
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>
+      Passwords
+    </legend>
+    <div>
+      <input
+        onChange={[Function]}
+        placeholder="Enter password"
+        type="password"
+        value="testing"
+      />
+    </div>
+  </fieldset>
+</section>
+`;

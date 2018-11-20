@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ui.components.title Static Examples 1`] = `
+<section>
+  <fieldset>
+    <legend>
+      Plain Text
+    </legend>
+    <div>
+      Title
+    </div>
+  </fieldset>
+</section>
+`;

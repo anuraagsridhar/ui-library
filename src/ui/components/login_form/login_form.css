@@ -1,0 +1,23 @@
+@value gridBaseline from 'assets/css/common.css';
+@value colorPrimary0 from 'assets/css/colors.css';
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+
+  width: calc(48 * gridBaseline);
+  padding: calc(2 * gridBaseline);
+}
+
+.loginFormRow {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.label {
+  font-size: 12px;
+}

@@ -1,0 +1,7 @@
+@value gridBaseline from 'assets/css/common.css';
+
+.title {
+  font-family: Lato;
+  font-size: calc(3 * gridBaseline);
+  padding: calc(3 * gridBaseline);
+}

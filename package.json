@@ -1,0 +1,127 @@
+{
+  "name": "anuraagsridhar",
+  "version": "1.0.0",
+  "description": "Personal website for Anuraag Sridhar",
+  "main": "src/index.tsx",
+  "repository": "https://anuraagsridhar@bitbucket.org/anuraagsridhar/personal-website.git",
+  "author": "Anuraag Sridhar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build": "build-storybook -c .storybook -o ./dist",
+    "lint": "tslint --project ."
+  },
+  "jest": {
+    "verbose": true,
+    "cacheDirectory": "dist-tests/jest-cache",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts,tsx}",
+      "!**/node_modules/**",
+      "!**/dist/**",
+      "!config/**"
+    ],
+    "coverageReporters": [
+      "text",
+      "html"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "./tsconfig.test.json"
+      }
+    },
+    "transform": {
+      "^.+\\.(ts|tsx|js)$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "<rootDir>/src"
+    ],
+    "roots": [
+      "<rootDir>/.storybook",
+      "<rootDir>/src"
+    ]
+  },
+  "dependencies": {
+    "@types/base-64": "^0.1.2",
+    "@types/classnames": "^2.2.6",
+    "@types/googlemaps": "^3.30.13",
+    "@types/query-string": "^6.1.0",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-router": "^4.0.30",
+    "@types/react-router-dom": "^4.3.0",
+    "awesome-typescript-loader": "^5.2.0",
+    "base-64": "^0.1.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.4.2",
+    "react-draggable": "^3.0.5",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-svg-loader": "^2.1.0",
+    "style-loader": "^0.23.0",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@storybook/addon-actions": "^4.0.2",
+    "@storybook/addon-knobs": "^4.0.2",
+    "@storybook/addon-options": "^4.0.2",
+    "@storybook/addon-storyshots": "^4.0.2",
+    "@storybook/cli": "^4.0.2",
+    "@storybook/react": "^4.0.2",
+    "@types/enzyme": "^3.1.14",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.1",
+    "@types/react-test-renderer": "^16.0.3",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-knobs": "^3.4.1",
+    "@types/storybook__addon-options": "^3.2.2",
+    "@types/storybook__addon-storyshots": "^3.4.3",
+    "@types/storybook__react": "^3.0.9",
+    "babel-core": "^7.0.0-beta.3",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^7.0.0",
+    "babel-runtime": "^7.0.0-beta.3",
+    "clean-webpack-plugin": "^0.1.19",
+    "concurrently": "^4.0.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "jest": "^23.6.0",
+    "jest-css-modules": "^1.1.0",
+    "moment": "^2.22.2",
+    "portable-fetch": "^3.0.0",
+    "query-string": "^6.1.0",
+    "react-test-renderer": "^16.5.2",
+    "ts-jest": "^23.1.4",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.3",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
