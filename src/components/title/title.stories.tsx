@@ -3,9 +3,9 @@ import * as React from 'react';
 import { text } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 
-import { Title } from '../title';
+import { Title } from './title';
 
-storiesOf('ui.components.title', module)
+storiesOf('components.title', module)
   .add('Static Examples', () => {
     return (
       <section>

@@ -3,7 +3,7 @@ import initStoryshots from '@storybook/addon-storyshots';
 
 const options = {
   configPath: '.storybook',
-  storyKindRegex: /^ui\.components\.login_form$/,
+  storyKindRegex: /^components\.text_input$/,
 };
 
 initStoryshots(options);

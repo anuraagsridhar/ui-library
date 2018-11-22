@@ -17,7 +17,7 @@
   },
   "jest": {
     "verbose": true,
-    "cacheDirectory": "dist-tests/jest-cache",
+    "cacheDirectory": "dist/tests/jest-cache",
     "collectCoverage": true,
     "collectCoverageFrom": [
       "**/*.{js,jsx,ts,tsx}",

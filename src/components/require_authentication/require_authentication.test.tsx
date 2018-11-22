@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 
-import { RequireAuthentication } from '../require_authentication';
+import { RequireAuthentication } from './require_authentication';
 
 import { configure, mount } from 'enzyme';
 import * as ReactSixteenAdapter from 'enzyme-adapter-react-16';

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots ui.components.login_form Static Examples 1`] = `
+exports[`Storyshots components.login_form Static Examples 1`] = `
 <section>
   <fieldset>
     <div>
@@ -33,7 +33,7 @@ exports[`Storyshots ui.components.login_form Static Examples 1`] = `
             <div>
               <input
                 onChange={[Function]}
-                placeholder="Enter password"
+                placeholder="Enter password here:"
                 type="password"
                 value="testpass"
               />

@@ -4,9 +4,9 @@ import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 
-import { TextInput } from '../text_input';
+import { TextInput } from './text_input';
 
-storiesOf('ui.components.text_input', module)
+storiesOf('components.text_input', module)
   .add('Static Examples', () => {
     return (
       <section>

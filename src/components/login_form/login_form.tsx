@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { Button } from 'ui/components/button/button';
-import { Panel } from 'ui/components/panel/panel';
-import { TextInput } from 'ui/components/text_input/text_input';
+import { Button } from 'components/button/button';
+import { Panel } from 'components/panel/panel';
+import { TextInput } from 'components/text_input/text_input';
 
 import * as styles from './login_form.css';
 

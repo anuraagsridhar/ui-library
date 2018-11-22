@@ -4,9 +4,9 @@ import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 
-import { Button } from '../button';
+import { Button } from './button';
 
-storiesOf('ui.components.button', module)
+storiesOf('components.button', module)
   .add('Static Examples', () => {
     return (
       <section>

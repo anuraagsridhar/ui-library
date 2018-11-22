@@ -4,7 +4,7 @@ import * as React from 'react';
 import { configure, shallow } from 'enzyme';
 import * as ReactSixteenAdapter from 'enzyme-adapter-react-16';
 
-import { TextInput } from '../text_input';
+import { TextInput } from './text_input';
 
 configure({ adapter: new ReactSixteenAdapter() });
 
