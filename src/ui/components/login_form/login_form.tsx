@@ -41,7 +41,7 @@ export class LoginForm extends React.PureComponent<LoginFormProps> {
             <div className={styles.label}>Password</div>
             <TextInput
               value={this.props.password}
-              placeholder="Enter password"
+              placeholder="Enter password here:"
               type="password"
               onSetValue={this.props.onPasswordChange}
             />
